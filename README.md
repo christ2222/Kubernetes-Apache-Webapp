@@ -2,7 +2,7 @@ Here’s the updated `README.md` file that starts with creating a cluster named 
 
 ---
 
-# Apache Web Application Deployment on RHEL9 in Kubernetes
+# Apache Web Application Deployment on RHEL9 in Kubernetes cluster
 
 This guide provides step-by-step instructions for deploying an Apache web application on a RHEL9-based Kubernetes cluster. The setup includes:
 
