@@ -90,7 +90,7 @@ apache-deployment-XXXXXX-XXXXX       1/1     Running   0          XXm
 
 ### Get LoadBalancer DNS
 
-To access the Apache web application, you need the DNS name assigned by the LoadBalancer:
+To access the Apache web application, you need the DNS name assigned by the LoadBalancer. you can get it through the console or cli:
 
 ```bash
 kubectl get service apache-service
