@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kubernetes Overview</title>
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        .logo {
+            width: 100px;
+            height: auto;
+        }
+        .title {
+            text-align: center;
+            font-size: 2.5em;
+            color: #007BFF; /* Blue color */
+            margin-top: 20px;
+        }
+        .content {
+            text-align: justify;
+            margin: 0 auto;
+            padding: 20px;
+            font-size: 1.2em;
+            color: #007BFF; /* Blue color */
+            max-width: 800px; /* Centralized content with max width */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://th.bing.com/th/id/R.ea798a7abf761b1b7b965a9f16eee1a6?rik=aC4g1T9IpqNckw&riu=http%3a%2f%2fassets.stickpng.com%2fimages%2f58480a44cef1014c0b5e4917.png&ehk=KPnoo5nTF29FI5rf23YFWnTfRzUkinLBnE6D0A8u730%3d&risl=&pid=ImgRaw&r=0" alt="Kubernetes Logo" class="logo">
+        <img src="https://th.bing.com/th/id/R.ea798a7abf761b1b7b965a9f16eee1a6?rik=aC4g1T9IpqNckw&riu=http%3a%2f%2fassets.stickpng.com%2fimages%2f58480a44cef1014c0b5e4917.png&ehk=KPnoo5nTF29FI5rf23YFWnTfRzUkinLBnE6D0A8u730%3d&risl=&pid=ImgRaw&r=0" alt="Kubernetes Logo" class="logo">
+    </div>
+    <h1 class="title">Kubernetes</h1>
+    <div class="content">
+        <p>
+            Kubernetes is an open-source, tool designed to orchestrate containers at scale in order to automate software deployment. Originally developed by Google, it is cloud agnostic. Kubernetes is widely adopted across various cloud platforms. Amazon Web Services (AWS) offers its own managed version of Kubernetes, known as Amazon EKS (Elastic Kubernetes Service), which has become very popular.
+        </p>
+        <p>
+            The Kubernetes architecture consists of several key components. The Kubernetes Agent interacts with the control plane, which is the "brain" of Kubernetes. The control plane manages the worker nodes, where the containers are hosted. When you deploy Kubernetes, you create a cluster, which is a group of servers. A Kubernetes cluster is made up of worker nodes, and each worker node hosts containers. Containers, in turn, run the applications.
+        </p>
+        <p>
+            In Kubernetes, containers are housed within pods, which are the smallest deployable units in the Kubernetes ecosystem. A pod can contain one or more containers. Notably, Kubernetes doesn’t interact directly with containers but communicates with pods instead. To manage and interact with a Kubernetes cluster, you need to install a command-line tool called <code>kubectl</code> on your machine.
+        </p>
+    </div>
+</body>
+</html>

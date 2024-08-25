@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: apache-app 
+spec:
+  containers:
+  - name: rhel9-apache-container
+    image: christ2222/rhel9_apache_image:v1
+    ports:
+    - containerPort: 80
